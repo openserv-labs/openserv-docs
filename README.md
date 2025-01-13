@@ -8,9 +8,7 @@ openserv-docs/
 ├── CONTRIBUTING.md              
 ├── CODE_OF_CONDUCT.md           
 ├── SECURITY.md                  
-├── STYLE_GUIDE.md               
-├── DOCS_GUIDE.md                
-├── ROADMAP.md                   
+├── STYLE_GUIDE.md                                               
 ├── FAQ.md                       
 ├── .github/                     
 │   ├── ISSUE_TEMPLATE/
