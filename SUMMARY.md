@@ -1,8 +1,19 @@
 # Summary
 
-- [Overview](README.md)
-- Packages
-  - [agent-example](packages/agent-example/README.md)
-  - [agent-starter](packages/agent-starter/README.md)
-  - [agent-tutorial](packages/agent-tutorial/README.md)
-  - [sdk](packages/sdk/README.md)
+## Getting Started
+- [Agent Starter](packages/agent-starter/README.md)
+- [Typescript SDK](packages/sdk/README.md)
+
+## Examples and Tutorials
+- [Agent Examples](packages/agent-examples/README.md)
+- [Agent Tutorial](packages/agent-tutorial/README.md)
+
+## Advanced Guides
+
+## Resources
+- [Contribution Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [FAQ](FAQ.md)
+
+
+
