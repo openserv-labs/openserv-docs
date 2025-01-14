@@ -11,6 +11,7 @@
 
 * [Agent Examples](packages/agent-examples/README.md)
 * [Agent Tutorial](packages/agent-tutorial/README.md)
+* [Multi AI Agents Demo](examples-and-tutorials/multi-ai-agents-demo.md)
 
 ## Resources
 
