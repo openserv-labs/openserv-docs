@@ -1,6 +1,17 @@
 ---
-description: Pioneering the infrastructure for autonomous AI agents.
 icon: square-code
+description: Pioneering the infrastructure for autonomous AI agents.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: false
 ---
 
 # OpenServ Docs
