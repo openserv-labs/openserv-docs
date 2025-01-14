@@ -1,10 +1,14 @@
-# OpenServ Agent Examples
+# Agent Examples
 
 A collection of autonomous AI agents built with the @openserv-labs/sdk framework. Each agent demonstrates different capabilities and use cases.
 
+{% embed url="https://www.youtube.com/watch?v=P7A6qNu0PGg" %}
+
+
+
 ## Available Agents
 
-### [DexScreener Analytics](src/dexscreener-analytics)
+### [DexScreener Analytics](src/dexscreener-analytics/)
 
 An agent that provides real-time token analytics using DexScreener's API. Filter and analyze tokens by various criteria like volume, market cap, liquidity, and age.
 
