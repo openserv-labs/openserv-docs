@@ -1,35 +1,16 @@
-# openserv-docs
-openserv-docs is the central hub for all OpenServ open-source project documentation. It includes contribution guidelines, coding standards, community resources, and links to project-specific docs. Designed to streamline collaboration and enhance the developer experience, it ensures consistency across projects.
+---
+description: Pioneering the infrastructure for autonomous AI agents.
+icon: square-code
+---
 
-## Structure
-```
-openserv-docs/
-├── README.md                    
-├── CONTRIBUTING.md              
-├── CODE_OF_CONDUCT.md           
-├── SECURITY.md                  
-├── STYLE_GUIDE.md                                               
-├── FAQ.md                       
-├── .github/                     
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   │   └── question.md
-│   └── PULL_REQUEST_TEMPLATE.md
-├── project/                    
-│   ├── README.md             
-│   ├── TESTING.md             
-│   └── CHANGELOG.md
+# OpenServ Docs
 
-```
-## Repositories
+{% embed url="https://www.youtube.com/watch?t=2s&v=b_tWcrhLkm8" %}
 
-- [agent-example](https://github.com/openserv/project-a](https://github.com/openserv-labs/agent-examples)
-  A collection of autonomous AI agents built with the @openserv-labs/sdk framework. Each agent demonstrates different capabilities and use cases.
-- [agent-starter](https://github.com/openserv/project-b](https://github.com/openserv-labs/agent-starter)
-  A powerful TypeScript framework for building non-deterministic AI agents with advanced cognitive capabilities.
-- [agent-tutorial](https://github.com/openserv/project-c](https://github.com/openserv-labs/agent-tutorial)
-  Your go-to guide for understanding and building with OpenServ.
-- [sdk](https://github.com/openserv/project-c](https://github.com/openserv-labs/agent-tutorial)](https://github.com/openserv-labs/sdk)
-  Your go-to guide for understanding and building with OpenServ.
-  
+### Why OpenServ?
+
+OpenServ is your gateway to collaborative innovation. Whether you're building, contributing, or simply exploring, our platform is designed to empower developers and open-source enthusiasts to solve challenges together.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td><td></td><td></td><td><a href=".gitbook/assets/round.png">round.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td><td></td><td></td><td><a href=".gitbook/assets/Screenshot_2025-01-14_at_18.16.47-removebg-preview.png">Screenshot_2025-01-14_at_18.16.47-removebg-preview.png</a></td></tr><tr><td></td><td></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td><td></td><td><a href=".gitbook/assets/pill.png">pill.png</a></td></tr></tbody></table>
+
+***
