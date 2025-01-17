@@ -1,64 +1,70 @@
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+In the interest of fostering an open and welcoming environment, we as contributors and community managers have developed this Community Code of Conduct (“Code of Conduct”) as a pledge to ensure that participation in our community is a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, political views, socio-economic status, nationality, personal appearance, race, religion, and/or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ## Our Standards
-Examples of behavior that contributes to a positive environment for our community include:
 
-- Demonstrating empathy and kindness toward other people
-- Being respectful of differing opinions, viewpoints, and experiences
-- Giving and gracefully accepting constructive feedback
+### Examples of behavior that contributes to a positive environment for our community include:
+
+- Using welcoming and inclusive language
+- Showing empathy and kindness toward other people
+- Being respectful of differing viewpoints, and experiences
+- Gracefully accepting genuine feedback
 - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-- Focusing on what is best not just for us as individuals, but for the overall community
+- Focusing on what is best for the community
 
-## Examples of unacceptable behavior include:
+### Examples of unacceptable behavior include:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
+- The use of sexualized language or imagery and unwelcome sexual attention or advances
+- Trolling, insulting/derogatory comments, threats, and personal or political attacks
 - Public or private harassment
-- Publishing others’ private information, such as a physical or email address, without their explicit permission
+- Publishing or collecting others' private confidential information, such as a physical or electronic address, without explicit permission
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
-## Enforcement Responsibilities
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+## Our Responsibilities
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+OpenServ Team are the main organizers responsible for mediating challenging situations. We will always prioritize a sense of safety and belonging, and pursuing the well-being of individuals and communities. We acknowledge many of the issues every community deals with may arise from systemic circumstances and we will do our best seeking to foster a more just and equitable society.
+
+Project maintainers have the right and responsibility to remove, edit, or reject posts, replies, code, links, and other contributions that are not aligned to this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors that are  deemed inappropriate, threatening, offensive, or harmful.
+
+OpenServ Team may also appoint Community Moderators, empowered with the discretion to review and restrict content.
 
 ## Scope
-This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
-## Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [INSERT CONTACT METHOD]. All complaints will be reviewed and investigated promptly and fairly.
+This Code of Conduct applies within all community spaces.  It also applies when an individual is representing the community in public spaces or attending community events. Examples of representing a project or community include: 
+- using an official project email address
+- posting via an official social media account, or 
+- acting as an appointed representative at an online or offline event. 
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Representation of the community may be further defined and clarified by the OpenServ Team and OpenServ reserves the right to modify this Code of Conduct at its discretion and by the community needs.
 
-## Enforcement Guidelines
-Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
+## When Problems Arise
 
-1. Correction
-Community Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
+Instances of abusive, harassing, or otherwise unacceptable behavior by community members should be reported by contacting the OpenServ Community Team at community@openserv.ai    
 
-Consequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+We are committed to investigating any reported violations of our Code of Conduct and taking appropriate steps to address the concerns of those affected, with a focus on prioritizing the needs of individuals who have experienced harm. If a member violates our Code of Conduct, we may consider a range of actions to address the situation. 
+Depending on the severity of the situation, we may need to take corrective actions, such as providing training and/or mediation. In some cases, penalties such as a temporary suspension or a permanent ban from the community may be necessary to ensure the safety and well-being of all members.
 
-2. Warning
-Community Impact: A violation through a single incident or series of actions.
+## What Happens After a Violation is Reported
 
-Consequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
+Community leaders will create a report and take appropriate action. The report will be reviewed by the OpenServ Team and the appropriate action will be taken. The report will be kept confidential and the identity of the reporter will be protected.
 
-3. Temporary Ban
-Community Impact: A serious violation of community standards, including sustained inappropriate behavior.
+We will always have restorative justice approach at the forefront of our actions, and we will always prioritize the needs of individuals who have experienced harm.
 
-Consequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
+After a violation is reported, the OpenServ Team will take the following steps:
 
-4. Permanent Ban
-Community Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
-
-Consequence: A permanent ban from any sort of public interaction within the community.
+1. Investigate the incident
+2. Gather information from all relevant parties
+3. Determine the appropriate action
+4. Take action in accordance with the OpenServ Team's Code of Conduct
+5. Communicate the outcome of the investigation and the action taken with the reporter and the community
+6. Provide support and resources to the individual who has experienced harm
+7. Review and update our Code of Conduct as needed to ensure it remains effective and relevant
 
 ## Attribution
 This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
 
-Community Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.
+For answers to common questions about this Code of Conduct, see https://www.contributor-covenant.org/faq or contact the OpenServ Team at community@openserv.ai 
