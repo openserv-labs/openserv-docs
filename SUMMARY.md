@@ -6,7 +6,7 @@
 
 * [Quickstart Guide](getting-started/quickstart-guide.md)
 * [Agent Starter](packages/agent-starter/README.md)
-* [Typescript SDK](packages/sdk/README.md)
+* [TypeScript SDK](packages/sdk/README.md)
 
 ## Demos and Tutorials
 
