@@ -7,6 +7,12 @@ This starter provides a minimal setup to help you understand the basics of the S
 ## Setup
 
 1. Clone this repository
+
+```bash
+git clone https://github.com/openserv-labs/agent-starter.git
+cd agent-starter
+```
+
 2. Install dependencies:
 
 ```bash
