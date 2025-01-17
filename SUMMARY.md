@@ -9,7 +9,7 @@
 * [OpenServ API](packages/agent-tutorial/README.md)
 * [TypeScript SDK](packages/sdk/README.md)
 
-## Demos and Tutorials
+## Demos
 
 * [Agent Examples](packages/agent-examples/README.md)
 * [Multi AI Agents Demo](examples-and-tutorials/multi-ai-agents-demo.md)
