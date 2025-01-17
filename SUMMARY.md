@@ -6,12 +6,12 @@
 
 * [Quickstart Guide](getting-started/quickstart-guide.md)
 * [Agent Starter](packages/agent-starter/README.md)
+* [OpenServ API](packages/agent-tutorial/README.md)
 * [TypeScript SDK](packages/sdk/README.md)
 
 ## Demos and Tutorials
 
 * [Agent Examples](packages/agent-examples/README.md)
-* [Agent Tutorial](packages/agent-tutorial/README.md)
 * [Multi AI Agents Demo](examples-and-tutorials/multi-ai-agents-demo.md)
 
 ## Resources
