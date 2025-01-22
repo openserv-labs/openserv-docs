@@ -19,19 +19,16 @@ An AI agent that leverages Perplexity's API to perform web search with source ci
 ## Setup
 
 1. Install dependencies:
-
 ```bash
 npm install
 ```
 
 2. Set up your environment variables:
-
 ```bash
 cp .env.example .env
 ```
 
 3. Run the agent:
-
 ```bash
 npm run dev
 ```
@@ -47,7 +44,6 @@ OPENAI_API_KEY=your_openai_api_key_here
 ## Usage
 
 The agent provides a simple search capability that returns detailed responses with source citations. Each search result includes:
-
 - Comprehensive answer to your query
 - Citations with links to source materials
 
