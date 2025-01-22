@@ -21,6 +21,21 @@ cp .env.example .env
 
 4. Update the environment variables in `.env`:
    - `OPENSERV_API_KEY`: Your OpenServ Labs API key
+   - `PORT`: The port number for your agent's HTTP server (default: 7378)
+
+## Using with OpenServ Platform
+
+To use your agent with the OpenServ platform:
+
+1. Start your agent locally using `npm run dev` or `npm start`
+2. Use a tool like [ngrok](https://ngrok.com/) to expose your local server:
+```bash
+ngrok http 7378  # Replace 7378 with your PORT if different
+```
+3. Copy the ngrok URL (e.g., `https://your-agent.ngrok.io`)
+4. Go to the OpenServ platform and add a new agent
+5. Set the agent's endpoint URL to your ngrok URL
+6. Your agent is now ready to use on the platform!
 
 ## Example Agent
 
