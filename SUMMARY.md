@@ -1,6 +1,6 @@
 # Table of contents
 
-- [OpenServ Docs](README.md)
+* [OpenServ Docs](openserv-intro.md)
 
 ## Getting Started
 
