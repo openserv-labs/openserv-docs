@@ -71,3 +71,40 @@ jobs:
           git commit -m "Update README from ${{ github.event.repository.name }}" || exit 0
           git push
 ```
+
+## ASCII Visual Representation Flow
+
++-------------------------------------+
+| Original Repository                 |
+| +---------------------------------+ |
+| | README.md                      | |
+| | * Source of truth for docs     | |
+| +---------------------------------+ |
++-------------------------------------+
+                 |
+                 v
++-------------------------------------+
+| CI Workflows                         |
+| * Detects changes to README.md       |
+| * Triggered by commits on 'main'     |
++-------------------------------------+
+                 |
+                 v
++-------------------------------------+
+| openserv-docs Repository             |
+| * Central hub for all README files   |
+| * Receives updates via CI workflows  |
++-------------------------------------+
+                 |
+                 v
++-------------------------------------+
+| GitBook Integration                  |
+| * Syncs with openserv-docs           |
+| * Rebuilds and deploys docs          |
++-------------------------------------+
+                 |
+                 v
++-------------------------------------+
+| Documentation Page (docs.openserv.ai)|
+| * Displays updated documentation     |
++-------------------------------------+
