@@ -5,6 +5,7 @@
 ## Getting Started
 
 - [Quickstart Guide](getting-started/quickstart-guide.md)
+- [No Code Builder](getting-started/no-code-builder.md)
 - [Agent Development Setup](packages/agent-tutorial/README.md)
 - [Agent Starter](packages/agent-starter/README.md)
 - [OpenServ API](packages/agent-tutorial/README.md)
