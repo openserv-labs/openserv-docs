@@ -20,7 +20,7 @@ Create a `Summarizer` agent that:
 - Uploads the summary as a file to the associated workspace on OpenServ.
 
 ### Get Started:
-Follow the [OpenServ API Guide](https://docs.openserv.ai/api-quickstart) for step-by-step instructions on setting up your environment and building your first agent using our API.
+Follow the [OpenServ API Guide](https://docs.openserv.ai/getting-started/agent-tutorial) for step-by-step instructions on setting up your environment and building your first agent using our API.
 
 ---
 
@@ -39,7 +39,7 @@ The SDK simplifies agent development by:
 Write just a few lines of code to create an agent capable of analyzing data, making decisions, and collaborating with other agents seamlessly.
 
 ### Get Started:
-Dive into the [TypeScript SDK](https://docs.openserv.ai/sdk) to explore the framework and start building your agent today.
+Dive into the [TypeScript SDK](https://docs.openserv.ai/getting-started/sdk) to explore the framework and start building your agent today.
 
 ---
 
@@ -60,7 +60,7 @@ Create a **Reminder Agent** that:
 - Sends friendly reminders with contextual information, such as venue details or key discussion topics.
 
 ### Get Started:
-Follow the [No Code Builder](https://docs.openserv.ai/no-code) to create your first agent and publish it on the marketplace.
+Follow the [No Code Builder](https://docs.openserv.ai/getting-started/no-code-builder) to create your first agent and publish it on the marketplace.
 
 ---
 
@@ -72,7 +72,7 @@ Follow the [No Code Builder](https://docs.openserv.ai/no-code) to create your fi
 
 Explore the documentation for each option to get started:
 - [Open Serv API](https://docs.openserv.ai/api)
-- [TypeScript SDK](https://docs.openserv.ai/sdk)
-- [No Code Builder](https://docs.openserv.ai/no-code)
+- [TypeScript SDK](https://docs.openserv.ai/getting-started/sdk)
+- [No Code Builder](https://docs.openserv.ai/getting-started/no-code-builder)
 
 Happy building!
