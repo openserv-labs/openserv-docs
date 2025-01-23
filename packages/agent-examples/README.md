@@ -2,7 +2,7 @@
 
 A collection of autonomous AI agents built with the @openserv-labs/sdk framework. Each agent demonstrates different capabilities and use cases.
 
-## [DexScreener Analytics](/demos-and-tutorials/dexscreener-analytics)
+## [DexScreener Analytics](https://docs.openserv.ai/demos-and-tutorials/dexscreener-analytics)
 
 An agent that provides real-time token analytics using DexScreener's API. Filter and analyze tokens by various criteria like volume, market cap, liquidity, and age.
 
@@ -12,7 +12,7 @@ Example query:
 "Show me tokens with >$1M 24h volume and market cap between $1M-$25M created in the last 30 days"
 ```
 
-## [GOAT Wallet](demos-and-tutorials/goat-agent)
+## [GOAT Wallet](https://docs.openserv.ai/demos-and-tutorials/goat-agent)
 
 A wallet agent that can interact with the blockchain and perform transactions.
 
@@ -23,7 +23,7 @@ Example queries:
 "Send 0.1 ETH to the address 0x1234567890"
 ```
 
-## [Perplexity Sonar Pro](/demos-and-tutorials/perplexity-sonar-pro)
+## [Perplexity Sonar Pro](https://docs.openserv.ai/demos-and-tutorials/perplexity-sonar-pro)
 
 An agent that performs web searches using Perplexity's Sonar Pro API, providing detailed responses with source citations.
 
@@ -43,7 +43,7 @@ Example queries:
 git clone https://github.com/openserv-labs/agent-examples.git
 ```
 
-2. Navigate to the agent directory you want to try:
+2. Navigate to the agent directory you want to try, ex:
 
 ```bash
 cd dexscreener-analytics
