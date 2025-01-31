@@ -10,10 +10,9 @@
 * [Agent Starter](packages/agent-starter/README.md)
 * [OpenServ API](packages/agent-tutorial/README.md)
 
-***
+## How to... <a href="#how" id="how"></a>
 
-* [HOW TO...](how-to.../README.md)
-  * [Create An Agent API Key](how-to.../create-an-agent-api-key.md)
+* [Create An Agent API Key](how/create-an-agent-api-key.md)
 
 ## Demos and Tutorials
 
