@@ -6,8 +6,7 @@
 
 * [Quickstart Guide](getting-started/quickstart-guide.md)
 * [No Code Builder](getting-started/no-code-builder.md)
-* [TypeScript SDK](packages/sdk/README.md)
-* [Agent Starter](packages/agent-starter/README.md)
+* [TypeScriptSDK Agent Starter](packages/agent-starter/README.md)
 * [OpenServ API](packages/agent-tutorial/README.md)
 
 ## How to... <a href="#how" id="how"></a>
@@ -24,6 +23,7 @@
 
 ## Resources
 
+* [TypeScript SDK Framework Architecture](packages/sdk/README.md)
 * [Contribution Guide](CONTRIBUTING.md)
 * [Code of Conduct](CODE_OF_CONDUCT.md)
 * [FAQ](FAQ.md)
