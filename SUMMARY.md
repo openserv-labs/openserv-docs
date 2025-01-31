@@ -6,7 +6,7 @@
 
 * [Quickstart Guide](getting-started/quickstart-guide.md)
 * [No Code Builder](getting-started/no-code-builder.md)
-* [TypeScriptSDK Agent Starter](packages/agent-starter/README.md)
+* [Agent Starter SDK](packages/agent-starter/README.md)
 * [OpenServ API](packages/agent-tutorial/README.md)
 
 ## How to... <a href="#how" id="how"></a>
