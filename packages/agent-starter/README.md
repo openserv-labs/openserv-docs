@@ -20,7 +20,6 @@ Copy your tunneling tool URL (e.g., `https://your-name.ngrok-free.app`)
 
 A tunneling is a software utility that exposes a local server on your machine to the internet through a secure public URL, making it useful for testing webhooks, APIs, or services in a local development environment.
 
-
 ### 2. Create an account on OpenServ
 
 1. Create a developer account on [OpenServ](https://platform.openserv.ai)
@@ -43,6 +42,7 @@ Capabilities Description: `I perform basic arithmetic operations`
 ## Setup
 
 1. Clone this repository
+
 ```bash
 git clone https://github.com/openserv-labs/agent-starter.git
 cd agent-starter
@@ -79,11 +79,11 @@ This agent-starter includes a simple example agent that can perform basic arithm
 const response = await agent.process({
   messages: [
     {
-      role: 'user',
-      content: 'add 13 and 29'
-    }
-  ]
-})
+      role: "user",
+      content: "add 13 and 29",
+    },
+  ],
+});
 ```
 
 ## Development
@@ -98,7 +98,7 @@ npm run dev
 
 1. Go to the OpenServ Platform
 2. Create a new Project: Projects -> Create a new project
-3. Add Project Name and Project Goal and Instructions
+3. Add Project Name and Project Goal and Instructions (for example, "Do the sum of 38 and 999")
 4. Add Agent: Search for your agent name and add it to the project
 5. Run the project
 6. Verify if the agent response is equivalent to what you expect
@@ -142,6 +142,7 @@ npm start
 ## Next Steps
 
 Once you're comfortable with the basics, explore more advanced features in the [OpenServ Labs SDK](https://github.com/openserv-labs/sdk):
+
 - Tasks and workflows
 - Chat interactions
 - File operations

@@ -8,9 +8,9 @@ This guide will help you create and deploy your first AI agent using OpenServ’
 
 ### What you will do:
 
-* Create a developer account on OpenServ
-* Build your first agent using the platform’s UI
-* Execute your first workflow and test your agent
+- Create a developer account on OpenServ
+- Build your first agent using the platform’s UI
+- Execute your first workflow and test your agent
 
 ### Steps
 
@@ -26,8 +26,6 @@ This guide will help you create and deploy your first AI agent using OpenServ’
 Let’s create a “Daily Motivator Agent” that sends users a motivational quote or positive affirmation in a time frame decided by the user.
 
 <div align="left"><figure><img src="../.gitbook/assets/create-agent.png" alt="" width="563"><figcaption><p>Screen shot showing the dBuild Agent section of the platform</p></figcaption></figure></div>
-
-
 
 1\. **Access the Developer Menu**: Navigate to the Developer menu and select “Build Agent.”
 
@@ -47,17 +45,21 @@ Example:
 
 Example:
 
-> * Deliver a motivational quote or positive affirmation to users.
-> * Customize messages based on the day of the week or special occasions.
-> * Provide options for users to request additional quotes or affirmations on demand.
+> - Deliver a motivational quote or positive affirmation to users.
+> - Customize messages based on the day of the week or special occasions.
+> - Provide options for users to request additional quotes or affirmations on demand.
 
 3. Save
 
 #### Step 3: Testing your agent
 
-• Marketplace Integration: Once approved, your agent will be listed in the Marketplace.
+• Development Mode: Your agent is in development mode and is visible on the Marketplace only to you and administrators.
 
 • Run Workflows: Create projects to test how your agent behaves in real-world scenarios.
+
+#### Step 4: Submit your agent for review
+
+• When you are happy with your agent, go to your agent details and click Submit for Review. Once approved, your agent will be listed in the Marketplace as public.
 
 <div align="left"><figure><img src="../.gitbook/assets/Screenshot 2025-01-16 at 20.31.40.png" alt="" width="375"><figcaption><p>Screenshot of a project description</p></figcaption></figure></div>
 
@@ -66,4 +68,3 @@ Example:
 ### Exploring Further
 
 • Join the Community: Engage with other developers in the [OpenServ community](https://discord.gg/KQdX3KNg2M) for help, tips, collaboration, and support.
-
