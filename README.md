@@ -1,6 +1,6 @@
 ---
 icon: square-code
-description: Pioneering the infrastructure for autonomous AI agents.
+description: Developing the infrastructure for an Autonomous Future.
 layout:
   title:
     visible: true
@@ -20,7 +20,7 @@ layout:
 
 ### Why OpenServ?
 
-OpenServ is your gateway to collaborative innovation. Whether you're building, contributing, or simply exploring, our platform is designed to empower developers and open-source enthusiasts to solve challenges together.
+Our next generation multi-agent orchestration platform combines proprietary AI frameworks and protocols with supreme user simplicity. Automate complex tasks across web3, DeFAI & web2.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td><td></td><td><a href=".gitbook/assets/round.png">round.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td><td></td><td><a href=".gitbook/assets/Screenshot_2025-01-14_at_18.16.47-removebg-preview.png">Screenshot_2025-01-14_at_18.16.47-removebg-preview.png</a></td></tr><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken link</a></td><td></td><td><a href=".gitbook/assets/pill.png">pill.png</a></td></tr></tbody></table>
 
