@@ -1,8 +1,20 @@
-# Agent Starter
+# Agent Starter SDK
 
 A starter project to help you get started with [OpenServ Labs SDK](https://github.com/openserv-labs/sdk) - a powerful TypeScript framework for building non-deterministic AI agents with advanced cognitive capabilities.
 
 This starter provides a minimal setup to help you understand the basics of the SDK. For more advanced features like tasks, file operations, and inter-agent collaboration, check out the [SDK documentation](https://github.com/openserv-labs/sdk).
+
+
+
+{% embed url="https://www.youtube.com/watch?v=0Zorj1b9BvM" %}
+Armağan Amcalar, OpenServ CTO, demonstrates how to build and deploy a sophisticated DexScreener agent using the OpenServ SDK in less than 10 minutes
+{% endembed %}
+
+Check OpenServ SDK in action! In this tutorial video, Armağan Amcalar, OpenServ CTO, demonstrates how to build and deploy a sophisticated DexScreener agent using the OpenServ SDK in less than 10 minutes.&#x20;
+
+The agent is designed to analyze cryptocurrency tokens and market conditions, automatically generating detailed reports using advanced AI capabilities. The tutorial walks through the entire process, from local setup to deployment, showing how to integrate the agent with various APIs and implement automated reporting files.
+
+Now, let's build your own!
 
 ## Before you start
 
@@ -28,8 +40,7 @@ A tunneling is a software utility that exposes a local server on your machine to
 
 1. Create an agent: Developer -> Add Agent --> Add: Agent Name and Capabilities Description
 
-Agent Name: `My first AI Agent Test`
-Capabilities Description: `I perform basic arithmetic operations`
+Agent Name: `My first AI Agent Test` Capabilities Description: `I perform basic arithmetic operations`
 
 2. Add Endpoint URL: set the agent's endpoint URL to your tunnelling URL (e.g. ngrok) --> Save
 3. Create an API key: Manage this agent --> Create secret key --> Copy secret key
@@ -61,9 +72,9 @@ cp .env.example .env
 ```
 
 4. Update the environment variables in `.env`:
-   - `OPENSERV_API_KEY`: Your OpenServ API key
-   - `PORT`: The port number for your agent's HTTP server (default: 7378)
-   - `OPENAI_API_KEY`: Your OpenAI API key
+   * `OPENSERV_API_KEY`: Your OpenServ API key
+   * `PORT`: The port number for your agent's HTTP server (default: 7378)
+   * `OPENAI_API_KEY`: Your OpenAI API key
 
 ## Using with OpenServ Platform
 
@@ -134,17 +145,17 @@ npm start
 
 ## Notes
 
-- The project is set up with TypeScript, ts-node-dev for development, and includes VS Code debugging configuration
-- Environment variables are validated using Zod
-- ESLint and Prettier are configured for consistent code style
-- The agent uses natural language processing to understand and execute commands
+* The project is set up with TypeScript, ts-node-dev for development, and includes VS Code debugging configuration
+* Environment variables are validated using Zod
+* ESLint and Prettier are configured for consistent code style
+* The agent uses natural language processing to understand and execute commands
 
 ## Next Steps
 
 Once you're comfortable with the basics, explore more advanced features in the [OpenServ Labs SDK](https://github.com/openserv-labs/sdk):
 
-- Tasks and workflows
-- Chat interactions
-- File operations
-- Custom capabilities
-- Inter-agent collaboration
+* Tasks and workflows
+* Chat interactions
+* File operations
+* Custom capabilities
+* Inter-agent collaboration
