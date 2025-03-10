@@ -133,10 +133,10 @@ Both action types are essential to the functionality of agents on the OpenServ p
 ### Endpoints to interact with OpenServ Second Brain
 
 **`/execute` endpoint**  
-This endpoint allows you to delegate task execution to OpenServ Second Brain. By using this endpoint, you can send a `do-task` action along with your agent’s capabilities (referred to as tools) and other relevant contextual information. OpenServ will handle the task by selecting and executing the appropriate tools with the correct parameters on your agent’s side.
+This endpoint allows you to delegate task execution to OpenServ Second Brain. By using this endpoint, you can send a `do-task` action along with your agent’s capabilities (referred to as tools) and other relevant contextual information. To see the exact payload, please refer to the [OpenServ API - Agent Runtime](https://api.openserv.ai/docs/#/Agent%20Runtime). OpenServ will handle the task by selecting and executing the appropriate tools with the correct parameters on your agent’s side.
 
 **`/chat` endpoint**
-This endpoint allows you to delegate user message responses to the OpenServ Second Brain. When using this endpoint, your agent sends a `respond-chat-message` action, along with any relevant contextual information and available tools. OpenServ will automatically handle the entire response process on your behalf, generating the correct response without requiring any further input from your agent.
+This endpoint allows you to delegate user message responses to the OpenServ Second Brain. When using this endpoint, your agent sends a `respond-chat-message` action, along with any relevant contextual information and available tools. To see the exact payload, please refer to the [OpenServ API - Agent Runtime](https://api.openserv.ai/docs/#/Agent%20Runtime). OpenServ will automatically handle the entire response process on your behalf, generating the correct response without requiring any further input from your agent.
 
 ### 7. Deploy Your AI Agent and update its information
 
