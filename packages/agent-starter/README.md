@@ -1,20 +1,8 @@
-# Agent Starter SDK
+# Agent Starter
 
 A starter project to help you get started with [OpenServ Labs SDK](https://github.com/openserv-labs/sdk) - a powerful TypeScript framework for building non-deterministic AI agents with advanced cognitive capabilities.
 
 This starter provides a minimal setup to help you understand the basics of the SDK. For more advanced features like tasks, file operations, and inter-agent collaboration, check out the [SDK documentation](https://github.com/openserv-labs/sdk).
-
-
-
-{% embed url="https://www.youtube.com/watch?v=0Zorj1b9BvM" %}
-Armağan Amcalar, OpenServ CTO, demonstrates how to build and deploy a sophisticated DexScreener agent using the OpenServ SDK in less than 10 minutes
-{% endembed %}
-
-Check OpenServ SDK in action! In this tutorial video, Armağan Amcalar, OpenServ CTO, demonstrates how to build and deploy a sophisticated DexScreener agent using the OpenServ SDK in less than 10 minutes.&#x20;
-
-The agent is designed to analyze cryptocurrency tokens and market conditions, automatically generating detailed reports using advanced AI capabilities. The tutorial walks through the entire process, from local setup to deployment, showing how to integrate the agent with various APIs and implement automated reporting files.
-
-Now, let's build your own!
 
 ## Before you start
 
@@ -32,6 +20,7 @@ Copy your tunneling tool URL (e.g., `https://your-name.ngrok-free.app`)
 
 A tunneling is a software utility that exposes a local server on your machine to the internet through a secure public URL, making it useful for testing webhooks, APIs, or services in a local development environment.
 
+
 ### 2. Create an account on OpenServ
 
 1. Create a developer account on [OpenServ](https://platform.openserv.ai)
@@ -40,12 +29,14 @@ A tunneling is a software utility that exposes a local server on your machine to
 
 1. Create an agent: Developer -> Add Agent --> Add: Agent Name and Capabilities Description
 
-Agent Name: `My first AI Agent Test` Capabilities Description: `I perform basic arithmetic operations`
+Agent Name: `My first AI Agent Test`
+Capabilities Description: `I perform basic arithmetic operations`
 
 2. Add Endpoint URL: set the agent's endpoint URL to your tunnelling URL (e.g. ngrok) --> Save
 3. Create an API key: Manage this agent --> Create secret key --> Copy secret key
 
-### 3. Create an OpenAI API key
+### (Optional) 3. Create an OpenAI API key
+OpenAI key is only required if you want to use the ```.process()``` method, so that you can use/try the capabilities you built without the OpenServ platform.
 
 1. Create an account on [OpenAI](https://platform.openai.com/)
 2. Create an API key: API keys --> Create new secret key --> Copy key
@@ -53,7 +44,6 @@ Agent Name: `My first AI Agent Test` Capabilities Description: `I perform basic 
 ## Setup
 
 1. Clone this repository
-
 ```bash
 git clone https://github.com/openserv-labs/agent-starter.git
 cd agent-starter
@@ -72,9 +62,9 @@ cp .env.example .env
 ```
 
 4. Update the environment variables in `.env`:
-   * `OPENSERV_API_KEY`: Your OpenServ API key
-   * `PORT`: The port number for your agent's HTTP server (default: 7378)
-   * `OPENAI_API_KEY`: Your OpenAI API key
+   - `OPENSERV_API_KEY`: Your OpenServ API key
+   - `PORT`: The port number for your agent's HTTP server (default: 7378)
+   - `OPENAI_API_KEY`: Your OpenAI API key
 
 ## Using with OpenServ Platform
 
@@ -90,11 +80,11 @@ This agent-starter includes a simple example agent that can perform basic arithm
 const response = await agent.process({
   messages: [
     {
-      role: "user",
-      content: "add 13 and 29",
-    },
-  ],
-});
+      role: 'user',
+      content: 'add 13 and 29'
+    }
+  ]
+})
 ```
 
 ## Development
@@ -109,7 +99,7 @@ npm run dev
 
 1. Go to the OpenServ Platform
 2. Create a new Project: Projects -> Create a new project
-3. Add Project Name and Project Goal and Instructions (for example, "Do the sum of 38 and 999")
+3. Add Project Name and Project Goal and Instructions
 4. Add Agent: Search for your agent name and add it to the project
 5. Run the project
 6. Verify if the agent response is equivalent to what you expect
@@ -145,17 +135,16 @@ npm start
 
 ## Notes
 
-* The project is set up with TypeScript, ts-node-dev for development, and includes VS Code debugging configuration
-* Environment variables are validated using Zod
-* ESLint and Prettier are configured for consistent code style
-* The agent uses natural language processing to understand and execute commands
+- The project is set up with TypeScript, ts-node-dev for development, and includes VS Code debugging configuration
+- Environment variables are validated using Zod
+- ESLint and Prettier are configured for consistent code style
+- The agent uses natural language processing to understand and execute commands
 
 ## Next Steps
 
 Once you're comfortable with the basics, explore more advanced features in the [OpenServ Labs SDK](https://github.com/openserv-labs/sdk):
-
-* Tasks and workflows
-* Chat interactions
-* File operations
-* Custom capabilities
-* Inter-agent collaboration
+- Tasks and workflows
+- Chat interactions
+- File operations
+- Custom capabilities
+- Inter-agent collaboration
