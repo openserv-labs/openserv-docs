@@ -16,13 +16,6 @@ This project is perfect for beginners while teaching you the essential concepts 
 
 * [Before You Start](./#before-you-start)
 * [Developing Your AI Agent For OpenServ](./#developing-your-ai-agent-for-openserv)
-  * [Understanding How OpenServ Works](./#understanding-how-openserv-works)
-  * [Required Endpoints](./#required-endpoints-what-your-agent-must-implement)
-  * [Action Types](./#action-1-handling-user-messages-respond-chat-message)
-  * [OpenServ API Integration](./#interacting-with-the-openserv-platform-api)
-  * [Deployment](./#deploy-your-agent)
-  * [Testing](./#test-your-agent-thoroughly)
-  * [Submission](./#submit-your-agent-for-review)
 * [Ready-to-Use Examples](./#ready-to-use-examples)
 
 ## Before You Start
