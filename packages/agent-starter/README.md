@@ -1,6 +1,6 @@
 # Agent Starter / OpenServ SDK Tutorial
 
-This tutorial will guide you through building AI agents with the [OpenServ SDK](https://github.com/openserv-labs/sdk) - a TypeScript framework that simplifies agent development. Whether you're new to AI development or an experienced developer, this guide will help you get started quickly.
+A starter project to help you get started building AI agents with the [OpenServ SDK](https://github.com/openserv-labs/sdk) - a TypeScript framework that simplifies agent development. Whether you're new to AI development or an experienced developer, this guide will help you get started quickly.
 
 ## What You'll Learn
 
@@ -20,7 +20,7 @@ This tutorial will guide you through building AI agents with the [OpenServ SDK](
 
 ### 1. Set Up Your Project
 
-First, clone the agent-starter template repository to get a pre-configured project:
+First, clone this agent-starter template repository to get a pre-configured project:
 
 ```bash
 git clone https://github.com/openserv-labs/agent-starter.git
@@ -125,15 +125,6 @@ When you call `process()`:
 3. If needed, it invokes your capabilities with the appropriate arguments
 4. It returns the response to you for testing
 
-### Benefits of Local Testing
-
-Testing with `process()` offers several advantages:
-
-1. **Rapid Development**: Test changes instantly without deployment
-2. **Debugging**: Easily set breakpoints and inspect variables
-3. **Development**: Work without needing constant platform access
-4. **Edge Case Testing**: Verify how your agent handles unusual inputs
-
 ### Testing Complex Inputs and Edge Cases
 
 You can extend the local testing in `main()` to try different inputs:
@@ -182,12 +173,7 @@ Choose a tunneling tool:
   - Simple command-line interface
   - No account required
 
-- [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/) (Cloudflare Tunnel)
-  - Free for personal use
-  - Backed by Cloudflare's infrastructure
-  - Good for production-like testing
-
-### Quick Setup with ngrok
+#### Quick Setup with ngrok
 
 1. [Download and install ngrok](https://ngrok.com/download)
 2. Open your terminal and run:
@@ -216,6 +202,11 @@ To test your agent on the OpenServ platform:
    ```bash
    npm run dev
    ```
+   or 
+  
+   ```bash
+   npm start
+   ```
 
 2. **Expose your server** with a tunneling tool as described in the previous section
 
@@ -232,37 +223,11 @@ To test your agent on the OpenServ platform:
 
 ## Advanced Capabilities
 
-As you get more comfortable with the SDK, you can leverage more advanced methods and features. Here are some examples of what's possible:
-
-### File Operations
-
-The SDK provides methods for working with files in the OpenServ workspace:
-
-- **`downloadFile`**: Retrieve files from the workspace
-- **`uploadFile`**: Send files to the workspace
-- **`listFiles`**: Get a list of available files
-
-### Task Management
-
-Manage tasks and workflows with these methods:
-
-- **`completeTask`**: Mark a task as successfully completed
-- **`reportTaskError`**: Report issues during task execution
-- **`getTaskDetails`**: Retrieve information about a specific task
-
-### Chat and Messaging
-
-Interact with users directly through chat:
-
-- **`sendChatMessage`**: Send messages to users in the workspace
-- **`getChatHistory`**: Retrieve previous messages in a conversation
-
-Check more methods in the [API Reference](https://github.com/openserv-labs/sdk?tab=readme-ov-file#api-reference).
-
+As you get more comfortable with the SDK, you can leverage more advanced methods and features such as file operations, task management, user interaction via chat and messaging. Check the methods in the [API Reference](https://github.com/openserv-labs/sdk?tab=readme-ov-file#api-reference).
 
 ## Production Deployment
 
-When your agent is ready for production:
+When your agent is all set for production, it’s time to get it out there! Just deploy it to a hosting service so that it can be available 24/7 for users to enjoy.
 
 1. **Build your project**:
    ```bash
@@ -271,7 +236,7 @@ When your agent is ready for production:
 
 2. **Deploy to a hosting service** like (from simplest to most advanced):
 
-    **Serverless Functions** (Beginner-friendly)
+    **Serverless** (Beginner-friendly)
       - [Vercel](https://vercel.com/) - Free tier available, easy deployment from GitHub
       - [Netlify Functions](https://www.netlify.com/products/functions/) - Similar to Vercel with a generous free tier
       - [AWS Lambda](https://aws.amazon.com/lambda/) - More complex but very scalable
@@ -281,22 +246,13 @@ When your agent is ready for production:
       - [Railway](https://railway.app/) - Developer-friendly platform
       - [Fly.io](https://fly.io/) - Global deployment with generous free tier
 
-    **Open-source Self-hosted** (Maximum freedom)
+    **Open source self-hosted** (Maximum freedom)
       - [OpenFaaS](https://www.openfaas.com/) - Functions as a Service for Docker and Kubernetes
       - [Dokku](https://dokku.com/) - Lightweight PaaS you can install on any virtual machine
 
-3. **Update your agent endpoint** on the OpenServ platform with your production URL
+3. **Update your agent endpoint** on the OpenServ platform with your production endpoint URL
 
 4. **Submit for review** through the Developer dashboard
-
-## Best Practices
-
-- **Clear Capability Descriptions**: Be specific about what each capability does
-- **Proper Schema Validation**: Use Zod to validate inputs and prevent errors
-- **Helpful Error Messages**: Return clear error messages when something goes wrong
-- **Regular Testing**: Use `process()` to test changes before deployment
-- **Efficient Resource Use**: Keep capabilities focused and efficient
-- **Secure Credentials**: Never hardcode API keys or secrets
 
 ---
 
