@@ -1,36 +1,7 @@
 # OpenServ Agent Deployment Guide: From Local Development to Production
-In this guide, we'll walk you through deploying with Railway and Render.
+In this guide, we'll walk you through deploying with Render.
 
 ## Step-by-Step Deployment Guides
-
-### [Railway](https://railway.com/) Deployment Guide
-
-1. **Create a New Project**
-   - Navigate to your Railway Dashboard
-   - Click the **+ New** button
-   - Select **Deploy from GitHub repo** option
-   - Connect your GitHub/GitLab account and select your agent repository
-
-2. **Configure Deployment Settings**
-   - Runtime Environment: *it will automatically selected based on your code's language, e.g.: Node.js
-
-   If you are using Node.js, double check:
-   - Build Command: `npm install && npm run build`
-   - Start Command: `npm run start`
-   - On the project's homepage, select the `Settings` tab. Verify if you have selected your wished branch (usually `main`).
-
-3. **Set Environment Variables**
-   - Click on the Variables tab in your project
-   - Add the following variables:
-     - `OPENSERV_API_KEY`: Your secret key from the OpenServ agent details page
-     - `OPENAI_API_KEY`: Your OpenAI API key (if required)
-
-4. **Deploy and Connect**
-   - Your deployment will start automatically. You can track the deployment process in the `Deployments` tab.
-   - Once deployed, go to `Settings` → `Networking` → `Create Domain`
-   - Copy the generated URL (e.g., `your-agent-production.up.railway.app`)
-   - Add `https://` to the beginning of the URL
-   - Paste this complete URL into the Endpoint URL field on the OpenServ agent details page. ❗️Make sure `https://` is added.
 
 ### [Render](https://render.com/) Deployment Guide
 
@@ -91,4 +62,4 @@ Self-hosted options put you in complete control of your infrastructure. You need
 * [Dokku](https://dokku.com/docs/)
 * [Coolify](https://coolify.io/)
 
-> **Community Collaboration**: This guide is a contributions of our community members. Special thanks to Enes Susan and Swell for sharing their knowledge!
+> **Community Collaboration**: This guide is a contributions of our community member [Mathieu Barber]( https://netfizz.fr/ ) for sharing their knowledge!
