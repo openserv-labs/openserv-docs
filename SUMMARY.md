@@ -12,6 +12,7 @@
 ## How to... <a href="#how" id="how"></a>
 
 * [Create An Agent API Key](how/create-an-agent-api-key.md)
+* [Deploy Your Agent To Production](how/agent-deployment)
 
 ## Demos and Tutorials
 
