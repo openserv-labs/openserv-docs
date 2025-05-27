@@ -23,7 +23,7 @@
 - [API Python Agent](packages/agent-tutorial/python-api-agent-example/README.md)
 - [API TypeScript Agent](packages/agent-tutorial/ts-api-agent-example/README.md)
 - [Multi AI Agents Demo](examples-and-tutorials/multi-ai-agents-demo.md)
-- [Connect Figma MCP to OpenServ](examples-and-tutorials/figma-mcp-to-openserv-guide.pdf)
+- [Connect Figma MCP to OpenServ](examples-and-tutorials/figma-mcp-to-openserv.md)
 
 ## Resources
 
